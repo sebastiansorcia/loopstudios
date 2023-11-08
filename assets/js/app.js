@@ -9,9 +9,9 @@ function toggleMenu(){
     clicks = clicks + 1;
 
     if (clicks % 2 != 0) {
-        btnMenu.setAttribute("src", "../../images/icon-close.svg");
+        btnMenu.setAttribute("src", "images/icon-close.svg");
     }else{
-        btnMenu.setAttribute("src", "../../images/icon-hamburger.svg");
+        btnMenu.setAttribute("src", "images/icon-hamburger.svg");
     }
 
 }
